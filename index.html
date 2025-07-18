@@ -6,7 +6,6 @@
   <title>EOS Archive - Login</title>
   <script src="js/app.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body class="bg-gray-900 text-gray-200 flex items-center justify-center h-screen">
   <div class="text-center">
@@ -15,6 +14,14 @@
     <input id="codeInput" type="text" placeholder="Access Code" class="px-4 py-2 rounded text-gray-900">
     <button onclick="submitCode()" class="ml-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded">Unlock</button>
     <p id="codeMessage" class="mt-4 text-red-400"></p>
+
+    <!-- Spike Simulation Data -->
+    <div id="spikeSimulation" class="mt-10 p-4 border border-gray-700 rounded bg-gray-800">
+      <h2 class="text-xl font-semibold text-blue-400 mb-2">Spike Protein Simulation Data</h2>
+      <p class="text-sm text-gray-400 mb-1">File: <code>VAX_SIM_3D_SPIKE_NODE.bin</code></p>
+      <p class="text-sm text-yellow-400 mb-2">Status: 🔒 Storage Detected — Simulation Unavailable</p>
+      <p class="text-xs text-gray-500 italic">Requires certified GPU processing node for decryption and rendering.</p>
+    </div>
   </div>
 </body>
 </html>
