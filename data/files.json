@@ -1,0 +1,20 @@
+[
+  {
+    "id": "file_001",
+    "title": "Email: Lira to McConnell",
+    "clearance": "Level 2",
+    "path": "data/markdown/example1.md"
+  },
+  {
+    "id": "file_002",
+    "title": "Lab Report: Specimen 04",
+    "clearance": "Level 3",
+    "path": "data/markdown/example2.md"
+  },
+  {
+    "id": "file_003",
+    "title": "Project Overview",
+    "clearance": "Level 1",
+    "path": "data/markdown/example3.md"
+  }
+]
