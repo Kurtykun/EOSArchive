@@ -1,20 +1,45 @@
 [
   {
     "id": "file_001",
-    "title": "Email: Lira to McConnell",
-    "clearance": "Level 2",
-    "path": "data/markdown/example1.md"
+    "title": "Formal Request to End Tithonus Research",
+    "clearance": "Level 1",
+    "category": "Emails",
+    "path": "data/markdown/email_lira_mcconnell1.md"
   },
   {
     "id": "file_002",
-    "title": "Lab Report: Specimen 04",
-    "clearance": "Level 3",
-    "path": "data/markdown/example2.md"
+    "title": "Formal Resignation",
+    "clearance": "Level 1",
+    "category": "Emails",
+    "path": "data/markdown/email_howard_lira1.md"
   },
   {
     "id": "file_003",
-    "title": "Project Overview",
+    "title": "Sinking Ship",
     "clearance": "Level 1",
-    "path": "data/markdown/example3.md"
+    "category": "Emails",
+    "path": "data/markdown/email_jennick_external1.md"
+  },
+  {
+    "id": "file_004",
+    "title": "Help a Brother out",
+    "clearance": "Level 1",
+    "category": "Emails",
+    "path": "data/markdown/email_jennick_external2.md"
+  },
+  {
+    "id": "file_005",
+    "title": "Recovered Audio Transcript",
+    "clearance": "Level 3",
+    "category": "Recovered Data",
+    "path": "data/markdown/audio_transcript_recovered.md"
+  },
+  {
+    "id": "file_006",
+    "title": "3D Spike Interaction Data (Offline)",
+    "clearance": "Level 4",
+    "category": "Mainframe Analysis",
+    "path": "data/markdown/spike_data_unavailable.md",
+    "status": "inaccessible"
   }
 ]
