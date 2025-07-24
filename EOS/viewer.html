@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EOS Archive - Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/viewer.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      plugins: [tailwind.plugin(function({ addComponents }) {
+        addComponents({
+          '.prose': {
+            color: '#d1d5db', // Tailwind gray-300
+          },
+        });
+      })]
+    };
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.9/dist/typography.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-200">
+  <div class="max-w-3xl mx-auto p-6">
+    <div id="fileContent"></div>
+    <a href="archive.html" class="text-blue-400 mt-4 inline-block">← Back to Category</a>
+  </div>
+</body>
+</html>
