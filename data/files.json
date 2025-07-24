@@ -3,43 +3,71 @@
     "id": "file_001",
     "title": "Formal Request to End Tithonus Research",
     "clearance": "Level 1",
-    "category": "Emails",
+    "category": "Email",
+    "subcategory": "Dr Jean Lira",
     "path": "data/markdown/email_lira_mcconnell1.md"
   },
   {
     "id": "file_002",
     "title": "Formal Resignation",
     "clearance": "Level 1",
-    "category": "Emails",
+    "category": "Email",
+    "subcategory": "Dr Jean Lira",
     "path": "data/markdown/email_howard_lira1.md"
   },
   {
     "id": "file_003",
     "title": "Sinking Ship",
     "clearance": "Level 1",
-    "category": "Emails",
+    "category": "Email",
+    "subcategory": "Roland Jennick",
     "path": "data/markdown/email_jennick_external1.md"
   },
   {
     "id": "file_004",
     "title": "Help a Brother out",
     "clearance": "Level 1",
-    "category": "Emails",
+    "category": "Email",
+    "subcategory": "Roland Jennick",
     "path": "data/markdown/email_jennick_external2.md"
   },
   {
     "id": "file_005",
     "title": "Recovered Audio Transcript",
-    "clearance": "Level 3",
+    "clearance": "Level 1",
     "category": "Recovered Data",
-    "path": "data/markdown/audio_transcript_recovered.md"
+    "path": "data/markdown/audio_transcript_recovered1.md"
   },
   {
     "id": "file_006",
-    "title": "3D Spike Interaction Data (Offline)",
-    "clearance": "Level 4",
-    "category": "Mainframe Analysis",
-    "path": "data/markdown/spike_data_unavailable.md",
-    "status": "inaccessible"
+    "title": "RE: RE: RE: RE:Inquiry",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Spam",
+    "path": "data/markdown/spam1.md"
+  },
+  {
+    "id": "file_007",
+    "title": "EXTENDED WARRANTY",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Spam",
+    "path": "data/markdown/spam2.md"
+  },
+  {
+    "id": "file_008",
+    "title": "Resignation.",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "HR",
+    "path": "data/markdown/HR1.md"
+  },
+  {
+    "id": "file_009",
+    "title": "Termination.",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "HR",
+    "path": "data/markdown/HR2.md"
   }
 ]
