@@ -1,29 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EOS Archive - Viewer</title>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="js/viewer.js" defer></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      plugins: [tailwind.plugin(function({ addComponents }) {
-        addComponents({
-          '.prose': {
-            color: '#d1d5db', // Tailwind gray-300
-          },
-        });
-      })]
-    };
-  </script>
-  <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.9/dist/typography.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-900 text-gray-200">
-  <div class="max-w-3xl mx-auto p-6">
-    <div id="fileContent"></div>
-    <a href="archive.html" class="text-blue-400 mt-4 inline-block">← Back to Category</a>
-  </div>
-</body>
-</html>
+document.addEventListener("DOMContentLoaded", async () => {
+  const params = new URLSearchParams(window.location.search);
+  const fileId = params.get("id");
+
+  const contentDiv = document.getElementById("fileContent");
+
+  try {
+    // Load metadata
+    const res = await fetch("data/files.json");
+    const files = await res.json();
+    const file = files.find(f => f.id === fileId);
+
+    if (!file) {
+      contentDiv.innerHTML = "<p>File not found.</p>";
+      return;
+    }
+
+    // Decide how to load file
+    if (file.type === "html") {
+      // Load raw HTML
+      const htmlRes = await fetch(file.path);
+      const htmlContent = await htmlRes.text();
+
+      contentDiv.innerHTML = `
+        <h1 class="text-2xl font-bold mb-4">${file.title}</h1>
+        <div class="prose prose-invert max-w-none">${htmlContent}</div>
+      `;
+    } else {
+      // Default: load and render markdown
+      const mdRes = await fetch(file.path);
+      const markdown = await mdRes.text();
+      const html = marked.parse(markdown);
+
+      contentDiv.innerHTML = `
+        <h1 class="text-2xl font-bold mb-4">${file.title}</h1>
+        <div class="prose prose-invert max-w-none">${html}</div>
+      `;
+    }
+  } catch (err) {
+    console.error("Error loading file:", err);
+    contentDiv.innerHTML = "<p>Failed to load file content.</p>";
+  }
+});
