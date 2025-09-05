@@ -1,6 +1,6 @@
 # Email: Lira to McConnell
 
-**Date:** April 12, 2010  
+**Date:** April 12, 2009  
 **From:** Dr. Jean Lira  
 **To:** Dr. R. McConnell
 
@@ -9,7 +9,7 @@
 
 Dr. McConnell,
 <br>
-I am formally requesting a suspension of all further assays. We have recorded spontaneous gene expression. This is not contamination. The virus is auto-catalyzing itself.
+I am formally requesting a suspension of all further assays. We have recorded spontaneous gene expression.
 <br>
 <br>
 Jean

@@ -1,7 +1,7 @@
 // Define unlock codes and associated clearance levels
 const accessCodes = {
-  "EOS-ALPHA": { name: "Dr. Lira", clearance: 1 },
-  "CROCODYLUS": { name: "Ops Observer", clearance: 2 },
+  "EOS-ALPHA": { name: "Dr. Lira", clearance: 2 },
+  "CROCODYLUS": { name: "Dr. Marcus Duval", clearance: 1 },
 };
 
 // Handle login code submission
@@ -179,10 +179,17 @@ if (window.location.pathname.endsWith("viewer.html")) {
         }
 
         fetch(file.path)
-          .then(res => res.text())
-          .then(text => {
+        .then(res => res.text())
+        .then(text => {
+          if (file.path.endsWith(".md")) {
             document.getElementById("fileContent").innerHTML = marked.parse(text);
-          });
+          } else if (file.path.endsWith(".html")) {
+            // Directly embed the HTML
+            document.getElementById("fileContent").innerHTML = text;
+          } else {
+            document.getElementById("fileContent").textContent = text;
+          }
+        });      
       });
   }
 }
