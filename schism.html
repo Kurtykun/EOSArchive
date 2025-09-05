@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolution Optimization Solutions - Strategic Partnerships</title>
+  <style>
+    /* 2008 web design - CSS2/early CSS3, Web 2.0 aesthetic */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    
+    /* Header with gradient */
+    header {
+      background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #4a7ba7 100%);
+      color: white;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+      animation: float 20s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(2deg); }
+    }
+    
+    .header-content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(45deg, #0a1a2e, #16213e);
+      border: 3px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Courier New", monospace;
+      font-weight: bold;
+      font-size: 14px;
+      letter-spacing: 1px;
+      box-shadow: inset 0 0 20px rgba(255,255,255,0.1);
+    }
+    
+    .header-text h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .header-text .tagline {
+      font-size: 14px;
+      opacity: 0.9;
+      font-style: italic;
+    }
+    
+    /* Navigation */
+    nav {
+      background: #34495e;
+      padding: 0;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    
+    nav li {
+      border-right: 1px solid #2c3e50;
+    }
+    
+    nav a {
+      display: block;
+      padding: 15px 25px;
+      color: #ecf0f1;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-weight: 500;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    nav a:hover {
+      background: #2c3e50;
+      color: #3498db;
+    }
+    
+    nav a:hover::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #3498db;
+    }
+    
+    /* Hero section */
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+      position: relative;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M1200 120L0 16.48V120z" fill="rgba(255,255,255,0.1)"/></svg>') bottom;
+      background-size: cover;
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+    
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      opacity: 0.95;
+    }
+    
+    /* Content sections */
+    .content {
+      padding: 40px;
+    }
+    
+    .section {
+      margin-bottom: 50px;
+    }
+    
+    .section h3 {
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+    }
+    
+    /* Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin: 30px 0;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      transition: all 0.3s ease;
+      border: 1px solid #e0e6ed;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #3498db, #2980b9);
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    }
+    
+    .card h4 {
+      color: #2c3e50;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    
+    .card p {
+      color: #7f8c8d;
+      margin-bottom: 15px;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background: #e8f4f8;
+      color: #2980b9;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .badge.classified {
+      background: #fdf2f2;
+      color: #e74c3c;
+    }
+    
+    /* Partnership timeline */
+    .timeline {
+      position: relative;
+      padding: 20px 0;
+    }
+    
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #3498db;
+      transform: translateX(-50%);
+    }
+    
+    .timeline-item {
+      display: flex;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-content {
+      margin-left: auto;
+      text-align: right;
+    }
+    
+    .timeline-content {
+      width: 45%;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    
+    .timeline-date {
+      position: absolute;
+      left: 50%;
+      top: 20px;
+      transform: translateX(-50%);
+      background: #3498db;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      z-index: 2;
+    }
+    
+    /* Footer */
+    footer {
+      background: #2c3e50;
+      color: #bdc3c7;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .footer-section h4 {
+      color: #ecf0f1;
+      margin-bottom: 15px;
+    }
+    
+    .footer-section p, .footer-section a {
+      color: #95a5a6;
+      text-decoration: none;
+      line-height: 1.8;
+    }
+    
+    .footer-section a:hover {
+      color: #3498db;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+      
+      .hero h2 {
+        font-size: 36px;
+      }
+      
+      .timeline::before {
+        left: 20px;
+      }
+      
+      .timeline-content {
+        width: calc(100% - 60px);
+        margin-left: 60px !important;
+        text-align: left !important;
+      }
+      
+      .timeline-date {
+        left: 20px;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          EOS<br><small style="font-size: 10px;">2008</small>
+        </div>
+        <div class="header-text">
+          <h1>Evolution Optimization Solutions</h1>
+          <div class="tagline"> Global Innovation • Global Defence</div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#partnerships">Partnerships</a></li>
+        <li><a href="#research">Research Divisions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Diversifying for Tomorrow</h2>
+        <p>EOS announces renewed strategic partnerships with government agencies, international research institutions and selected private sector partner to accelerate breakthrough biotechnology development by bringing new investment into the field.</p>
+      </div>
+    </section>
+
+    <div class="content">
+      <section class="section">
+        <h3>Founder Dr. Peter Hughes Departs for House of Lords</h3>
+        <div style="background: #f8f9fa; padding: 30px; border-radius: 8px; border-left: 4px solid #3498db; margin-bottom: 30px;">
+          <p style="font-size: 18px; color: #2c3e50; margin-bottom: 20px;">
+            <strong>Corktown, MA December 15, 2008</strong> - Evolution Optimization Solutions announces that founder and Chief Executive Officer Dr. Peter Hughes will be returning to the UK and taking up a seat in the house of lords.
+          </p>
+          
+          <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <p style="font-style: italic; font-size: 16px; color: #2c3e50;">
+              "It has been an extraordinary journey building this company from a small research startup with a small loan of a million dollars from my father. Into this company at the forefront of biotechnology innovation. I am sorry to be leaving but excited at the prospect of developing scientific policy at the highest levels in Westminster, I am confident that EOS is well-positioned for continued success and I look forward to meeting my sucessor when one is found."
+            </p>
+            <p style="margin-top: 15px; font-weight: bold; color: #34495e;">
+              — Dr. Peter Hughes, Founder & Outgoing CEO
+            </p>
+          </div>
+          
+          <p style="color: #7f8c8d; font-size: 14px;">
+            Dr. Hughes will take his seat in the House of Lords in January 2009 and will be advising the UK government on biotechnology policy. He will maintain a consulting role with EOS through the transition period.
+          </p>
+        </div>
+
+        <h3>Dr. Jean Lira Named Research Director</h3>
+        <div style="background: #e8f4f8; padding: 30px; border-radius: 8px; border-left: 4px solid #2980b9; margin-bottom: 30px;">
+          <p style="font-size: 18px; color: #2c3e50; margin-bottom: 20px;">
+            In a significant restructuring move, Dr. Jean Lira has been promoted to Research Director, placing her at the forefront of EOS's strategic pivot toward protective biotechnology.
+          </p>
+          
+          <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <p style="font-style: italic; font-size: 16px; color: #2c3e50;">
+              "We stand at a critical juncture in biotechnology. The partnerships we've formed provide unprecedented resources, but with that comes responsibility and risk. EOS must lead not just in innovation, but in ensuring our research serves to protect rather than potentially harm."
+            </p>
+            <p style="margin-top: 15px; font-weight: bold; color: #34495e;">
+              — Dr. Jean Lira, Research Director
+            </p>
+          </div>
+          
+          <p style="color: #7f8c8d; font-size: 14px;">
+            Dr. Lira brings over 15 years of experience in virology and has been the driving force behind EOS's safety protocols and ethical research standards. In her new role she will oversee the company's transition toward biological countermeasure research.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Partnership Timeline</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Q1 2008</div>
+            <div class="timeline-content">
+              <h4>DARPA Partnership Announcement</h4>
+              <p>Formal agreement signed for joint research initiatives. Project TITHONUS research will now be lead by DARPA.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">Q2 2008</div>
+            <div class="timeline-content">
+              <h4>Restructuring</h4>
+              <p>Internal restructuring beings to maximise efficiency. Divisions are diversified with partner companies taking stakes in their research.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">Q3 2008</div>
+            <div class="timeline-content">
+              <h4>Technology Transfer Program</h4>
+              <p>Limited licensing agreements signed with select private biotechnology firms.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">Q4 2008</div>
+            <div class="timeline-content">
+              <h4>Diversified Portfolio Launch</h4>
+              <p>EOS announces its restructing is complete. The newly invigorated EOS biotechnologies will focus primarily on biological countermeasures.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <h3>Research Division Overview</h3>
+        
+        <div class="cards">
+          <div class="card">
+            <h4>Military Enhancement Division</h4>
+            <p>Developing biological augmentation technologies for extreme environment survival. Partnership with defense agencies for soldier enhancement programs.</p>
+            <span class="badge classified">Security Clearance Required</span>
+          </div>
+          
+          <div class="card">
+            <h4>Civilian Healthcare Applications</h4>
+            <p>Translating military-grade biotechnologies for civilian medical applications. Focus on longevity research and disease resistance.</p>
+            <span class="badge">Public-Private Partnership</span>
+          </div>
+          
+          <div class="card">
+            <h4>Emergency Preparedness Solutions</h4>
+            <p>Biological countermeasures for pandemic response and bioterrorism preparedness. Rapid deployment vaccination technologies.</p>
+            <span class="badge">International Cooperation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Leadership Message</h3>
+        <div style="background: #f8f9fa; padding: 30px; border-radius: 8px; border-left: 4px solid #3498db;">
+          <p style="font-style: italic; font-size: 18px; color: #2c3e50;">
+            "After a year of extraordinary change in the wake the ongoing financial crisis we find our company on sturdier ground that ever. Our mission is clearer than ever before. While we are safe in the knowledge our work in the safe hands of government and our private sector partners."
+          </p>
+          <p style="margin-top: 20px; font-weight: bold; color: #34495e;">
+            — Dr. Jean Lira, Research Director
+          </p>
+        </div>
+      </section>
+        <div style="background: #fff3cd; border: 1px solid #ffeaa7; padding: 20px; border-radius: 8px; margin-top: 20px;">
+          <p><strong>Research Priority Shift:</strong> Following comprehensive risk assessment of our research portfolio, EOS is transitioning from enhancement-focused research to protective immunization technologies. This shift reflects both market demands and our commitment to global health security.</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Corporate Office</h4>
+          <p>Evolution Optimization Solutions<br>
+          Corktown, MASS - City Campus<br>
+          Building 7, Research Complex<br>
+          Phone: +1 (555) 0123-4567</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Partnership Inquiries</h4>
+          <p>Institutional Relations Office<br>
+          Email: partnerships@eos.com<br>
+          Direct Line: +1 (555) 0123-4580<br>
+          Security Clearance Verification Available</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Research Ethics</h4>
+          <p>Ethics Review Board<br>
+          Email: ethics@eos.com<br>
+          Anonymous Reporting: +1 (555) 0123-4599<br>
+          <a href="#">Ethics Guidelines Document</a></p>
+        </div>
+      </div>
+      
+      <div style="border-top: 1px solid #34495e; padding-top: 20px;">
+        <p>© 2008 Evolution Optimization Solutions — All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scrolling for navigation
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Add hover effects to cards
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-8px)';
+      });
+      
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+  </script>
+</body>
+</html>
