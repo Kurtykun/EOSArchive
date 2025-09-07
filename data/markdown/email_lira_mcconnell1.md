@@ -1,15 +1,15 @@
 # Email: Lira to McConnell
 
-**Date:** April 12, 2009  
+**Date:** April 12, 2007  
 **From:** Dr. Jean Lira  
-**To:** Dr. R. McConnell
+**To:** Dr. Rachel McConnell
 
-**Subject:** Formal Request to End Tithonus Research
+**Subject:** Formal Request to Pause Tithonus Research
 ---
 
-Dr. McConnell,
+Rachel,
 <br>
-I am formally requesting a suspension of all further assays. We have recorded spontaneous gene expression.
+The attached results of the Human Tissue Testing are extremely concerning. There is absolutely no way that Hughes can be serious about human trials it will never get approved. I need your backing here Rachel to go to the board and get this shut down! Rupert is with me already and some on the board are too.
 <br>
 <br>
 Jean

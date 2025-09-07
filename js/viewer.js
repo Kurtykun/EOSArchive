@@ -14,13 +14,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       contentDiv.innerHTML = "<p>File not found.</p>";
       return;
     }
-
-    // Decide how to load file
     if (file.type === "html") {
-      // Load raw HTML
+      // For complex HTML files, redirect directly
+      if (file.id === "file_020") {
+        window.location.href = file.path;
+        return;
+      }
+      
+      // For simple HTML, load as before
       const htmlRes = await fetch(file.path);
       const htmlContent = await htmlRes.text();
-
       contentDiv.innerHTML = `
         <h1 class="text-2xl font-bold mb-4">${file.title}</h1>
         <div class="prose prose-invert max-w-none">${htmlContent}</div>

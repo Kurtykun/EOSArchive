@@ -12,6 +12,8 @@ function submitCode() {
 
   if (user) {
     localStorage.setItem("user", JSON.stringify(user));
+    // Add this line to trigger the sync message
+    localStorage.setItem("showSyncMessage", "true");
     window.location.href = "archive.html";
   } else {
     messageEl.textContent = "Invalid code. Try again.";
@@ -26,6 +28,24 @@ if (window.location.pathname.endsWith("archive.html")) {
 
   const nameDisplay = document.getElementById("userDisplay");
   if (nameDisplay) nameDisplay.textContent = name;
+
+  // Add sync message if just logged in
+  if (localStorage.getItem("showSyncMessage") === "true") {
+    localStorage.removeItem("showSyncMessage");
+    
+    const syncMessage = document.createElement("div");
+    syncMessage.className = "text-green-400 text-sm mb-4 p-2 bg-gray-800 rounded";
+    syncMessage.textContent = "Sat Uplink Sync Complete. New files found.";
+    
+    const container = document.getElementById("fileList");
+    container.parentNode.insertBefore(syncMessage, container);
+    
+    setTimeout(() => {
+      if (syncMessage.parentNode) {
+        syncMessage.parentNode.removeChild(syncMessage);
+      }
+    }, 5000);
+  }
 
   let allFiles = [];
 

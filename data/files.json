@@ -1,7 +1,7 @@
 [
   {
     "id": "file_001",
-    "title": "Formal Request to End Tithonus Research",
+    "title": "Formal Request to Pause Tithonus Research",
     "clearance": "Level 1",
     "category": "Email",
     "subcategory": "Dr Jean Lira",
@@ -74,21 +74,24 @@
     "id": "file_010",
     "title": "Dr. Jean Lira - Personnel File",
     "clearance": "Level 1",
-    "category": "Personnel Records",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
     "path": "data/markdown/record_lira.md"
   },
   {
     "id": "file_011",
     "title": "Rupert Howard - Personnel File",
     "clearance": "Level 1",
-    "category": "Personnel Records",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
     "path": "data/markdown/record_howard.md"
   },
   {
     "id": "file_012",
     "title": "Jennick Roland - Personnel File",
     "clearance": "Level 1",
-    "category": "Personnel Records",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
     "path": "data/markdown/record_roland.md"
   },
   {
@@ -100,6 +103,14 @@
     "path": "data/oldsite.html",
     "type": "html"
   },
+  {
+    "id": "file_014",
+    "title": "Peter Hughes - Personnel File",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
+    "path": "data/markdown/record_hughes.md"
+  },
     {
     "id": "file_015",
     "title": "Corporate Site 2008",
@@ -108,14 +119,46 @@
     "subcategory": "Website",
     "path": "data/schism.html",
     "type": "html"
+  },
+  {
+    "id": "file_016",
+    "title": "Satellite Uplink Manager",
+    "clearance": "Level 1",
+    "category": "Tools",
+    "path": "data/satuplink.html",
+    "type": "html"
 },
 {
-"id": "file_016",
-"title": "Satellite Uplink Manager",
-"clearance": "Level 1",
-"category": "Tools",
-"path": "data/satuplink.html",
-"type": "html"
+  "id": "file_017",
+  "title": "HAPPY NEW YEAR",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_lira_jennick.md"
+},
+{
+  "id": "file_018",
+  "title": "Joining EOS",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_marcus_lira.md"
+},
+{
+  "id": "file_019",
+  "title": "RE:Joining EOS",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_lira_marcus1.md"
+},
+{
+  "id": "file_020",
+  "title": "Molecular Renderer",
+  "clearance": "Level 1",
+  "category": "Tools",
+  "path": "data/3D_RENDERER.html",
+  "type": "html"
 }
 ]
 

@@ -1,6 +1,6 @@
 EMPLOYEE PROFILE: Dr. Jean Lira
 
-**Position:** Chief Virologist
+**Position:** Research Director
 **Division:** EOS Life Sciences Group – Pathogen Research
 **Employee ID:** EOS-LS-0093
 **Clearance Level:** 1A – Unrestricted Mainframe Access
