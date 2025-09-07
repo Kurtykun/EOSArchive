@@ -1,0 +1,164 @@
+[
+  {
+    "id": "file_001",
+    "title": "Formal Request to Pause Tithonus Research",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Dr Jean Lira",
+    "path": "data/markdown/email_lira_mcconnell1.md"
+  },
+  {
+    "id": "file_002",
+    "title": "Resignation",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Dr Jean Lira",
+    "path": "data/markdown/email_howard_lira1.md"
+  },
+  {
+    "id": "file_003",
+    "title": "Sinking Ship",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Roland Jennick",
+    "path": "data/markdown/email_jennick_external1.md"
+  },
+  {
+    "id": "file_004",
+    "title": "Help a Brother out",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Roland Jennick",
+    "path": "data/markdown/email_jennick_external2.md"
+  },
+  {
+    "id": "file_005",
+    "title": "Recovered Audio Transcript",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "path": "data/markdown/audio_transcript_recovered1.md"
+  },
+  {
+    "id": "file_006",
+    "title": "RE: RE: RE: RE:Inquiry",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Spam",
+    "path": "data/markdown/spam1.md"
+  },
+  {
+    "id": "file_007",
+    "title": "EXTENDED WARRANTY",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "Spam",
+    "path": "data/markdown/spam2.md"
+  },
+  {
+    "id": "file_008",
+    "title": "Resignation.",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "HR",
+    "path": "data/markdown/HR1.md"
+  },
+  {
+    "id": "file_009",
+    "title": "Termination.",
+    "clearance": "Level 1",
+    "category": "Email",
+    "subcategory": "HR",
+    "path": "data/markdown/HR2.md"
+  },
+  {
+    "id": "file_010",
+    "title": "Dr. Jean Lira - Personnel File",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
+    "path": "data/markdown/record_lira.md"
+  },
+  {
+    "id": "file_011",
+    "title": "Rupert Howard - Personnel File",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
+    "path": "data/markdown/record_howard.md"
+  },
+  {
+    "id": "file_012",
+    "title": "Jennick Roland - Personnel File",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
+    "path": "data/markdown/record_roland.md"
+  },
+  {
+    "id": "file_013",
+    "title": "Corporate Site 1999",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Website",
+    "path": "data/oldsite.html",
+    "type": "html"
+  },
+  {
+    "id": "file_014",
+    "title": "Peter Hughes - Personnel File",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Personnel Records",
+    "path": "data/markdown/record_hughes.md"
+  },
+    {
+    "id": "file_015",
+    "title": "Corporate Site 2008",
+    "clearance": "Level 1",
+    "category": "Recovered Data",
+    "subcategory": "Website",
+    "path": "data/schism.html",
+    "type": "html"
+  },
+  {
+    "id": "file_016",
+    "title": "Satellite Uplink Manager",
+    "clearance": "Level 1",
+    "category": "Tools",
+    "path": "data/satuplink.html",
+    "type": "html"
+},
+{
+  "id": "file_017",
+  "title": "HAPPY NEW YEAR",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_lira_jennick.md"
+},
+{
+  "id": "file_018",
+  "title": "Joining EOS",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_marcus_lira.md"
+},
+{
+  "id": "file_019",
+  "title": "RE:Joining EOS",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Jean Lira",
+  "path": "data/markdown/email_lira_marcus1.md"
+},
+{
+  "id": "file_020",
+  "title": "Molecular Renderer",
+  "clearance": "Level 1",
+  "category": "Tools",
+  "path": "data/3D_RENDERER.html",
+  "type": "html"
+}
+]
+
