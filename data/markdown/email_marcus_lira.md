@@ -1,5 +1,3 @@
-# Email: Duval to Lira
-
 **Date:** Janurary 05, 2008  
 **From:** Dr. Marcus Duval
 **To:** Dr. Jean Lira

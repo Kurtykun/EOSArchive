@@ -1,5 +1,3 @@
-# Email: Lira to Jennick
-
 **Date:** Janurary 05, 2008  
 **From:** Dr. Jean Lira  
 **To:** Roland Jennick

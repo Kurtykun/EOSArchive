@@ -1,5 +1,3 @@
-# Email: Howard to Lira
-
 **Date:** October 1, 2012  
 **From:** Dr. Rupert Howard   
 **To:** Dr. Jean Lira

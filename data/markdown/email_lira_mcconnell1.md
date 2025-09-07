@@ -1,5 +1,3 @@
-# Email: Lira to McConnell
-
 **Date:** April 12, 2007  
 **From:** Dr. Jean Lira  
 **To:** Dr. Rachel McConnell

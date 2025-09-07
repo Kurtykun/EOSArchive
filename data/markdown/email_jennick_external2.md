@@ -1,5 +1,3 @@
-# Email: Roland to External
-
 **Date:** June 14, 2012  
 **From:** Jennick Roland  
 **To:** External
