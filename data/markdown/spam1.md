@@ -14,7 +14,8 @@ Exciting news! The Chimp CEO has paid you a special visit, bringing with it the 
 Sincerely,
                                             BrayCo
 <Br>
-![Attachment](spam1.jpg)
+<img src="spam1.jpg" alt="Attachment" />
+
 
 
 
