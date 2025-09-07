@@ -141,7 +141,7 @@
   "title": "Joining EOS",
   "clearance": "Level 1",
   "category": "Email",
-  "subcategory": "Dr Jean Lira",
+  "subcategory": "Dr Marcus Duval",
   "path": "data/markdown/email_marcus_lira.md"
 },
 {
@@ -159,6 +159,14 @@
   "category": "Tools",
   "path": "data/3D_RENDERER.html",
   "type": "html"
+},
+{
+  "id": "file_021",
+  "title": "RE:Joining EOS",
+  "clearance": "Level 1",
+  "category": "Email",
+  "subcategory": "Dr Marcus Duval",
+  "path": "data/markdown/email_marcus_lira2.md"
 }
 ]
 

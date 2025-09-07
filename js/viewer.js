@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     if (file.type === "html") {
       // For complex HTML files, redirect directly
-      if (file.id === "file_020") {
+      if (file.id === "file_020"|| file.id === "file_016") {
         window.location.href = file.path;
         return;
       }
